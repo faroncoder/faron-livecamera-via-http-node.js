@@ -1,8 +1,8 @@
 jsmpeg
 ==========
 
-## 1.  $ node stream-server.js password
-## 2. $ ffmpeg -s 640x480 -f video4linux2 -i /dev/video0 -f mpeg1video -b 800k -r 25 http://f5:8082/gnothi7411/640/480/
+## 1.  $ node stream-server.js yourpassword
+## 2. $ ffmpeg -s 640x480 -f video4linux2 -i /dev/video0 -f mpeg1video -b 800k -r 25 http://f5:8082/yourpassword/640/480/
 ## 3.  open steam-server.html and you will see live broadcast!  :)
 
 
